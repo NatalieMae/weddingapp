@@ -1,13 +1,16 @@
 import React from 'react';
+// import PalmTree from 'PalmTreeCaliforniaLocation.PNG';
+// import PhotoStorage from './PhotoStorage';
+// import CustomerPhotos from './CustomerPhotos';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={'/public/PalmTreeCaliforniaLocationHouse.JPG'} className="Palm Tree" alt="Palm Tree in the Sun" />
+        <img src={PalmTree} className="Palm Tree" alt="Palm Tree in the Sun" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          
         </p>
         <a
           className="App-link"
